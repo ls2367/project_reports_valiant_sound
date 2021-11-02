@@ -1,2 +1,4 @@
 module server_side_app
-+heroku goVersion go1.15
+
+go 1.14
+// +heroku goVersion go1.17
