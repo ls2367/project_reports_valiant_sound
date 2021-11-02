@@ -1,3 +1,4 @@
 module project_report.com
 
-go 1.15
+// +heroku goVersion go1.17
+go 1.17
