@@ -15,7 +15,7 @@ func getEnv(key string, fallback string) string {
 }
 
 func main() {
-	http.HandleFunc("/1", handler1)
+	http.HandleFunc("/", handler1)
 	http.ListenAndServe(":"+getEnv("PORT", "8080"), nil)
 }
 
